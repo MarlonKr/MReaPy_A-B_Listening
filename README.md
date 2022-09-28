@@ -7,7 +7,7 @@ These are 4 independently working Reaper action scripts written in Python that c
 
 
 # Tip
-During A/B listening, use the plugin [https://www.tbproaudio.de/products/ablm] (ABLM2 from TBProAudio). This way you can be sure that there are virtually no loudness differences and you can more reliably determine whether your processing adds value or not. This script is fully compatible with AB/LM2 instances on one to all three tracks. Consider using my [MReapy_ABLM2_Extension](https://github.com/MarlonKr/MReaPy_ABLM2_Extension) for more convenience and a quick workflow.
+During A/B listening, use the plugin [https://www.tbproaudio.de/products/ablm](ABLM2 from TBProAudio). This way you can be sure that there are virtually no loudness differences and you can more reliably determine whether your processing adds value or not. This script is fully compatible with AB/LM2 instances on one to all three tracks. Consider using my [MReapy_ABLM2_Extension](https://github.com/MarlonKr/MReaPy_ABLM2_Extension) for more convenience and a quick workflow.
 
 
 # Use
