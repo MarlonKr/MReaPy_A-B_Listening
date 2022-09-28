@@ -23,23 +23,23 @@ Creates 2 tracks, called "A| [track title]" and "B| [track title]". The track wi
 
 If you now select either track "A" or track "b" and trigger the action script "MReapy_A/B_start" again, the "Main Send" states of both tracks change, so that you can work quickly and - unlike when using the mute button - without sample problems and thus with little to no clicks/artifacts. 
 
-## MReaPy_A/B_move
+### MReaPy_A/B_move
 Moves the FX chain of the selected track to the "root" track source. If AB_LM2 is available in each or both tracks, the FX chain is automatically placed between the two ABLM2 instances of track "Root" and ignored in track "A"/track "B".
 
 ### MReaPy_A/B_random
 Randomly toggles the "Main Send" of Track "A" and "Track "B", i.e. either the "Main Send" is toggled on both tracks or remains the same. By doing so while not looking at the "main send" state, you are forced to your ears identifying the processed track. Use this action frequently when listening A/B to overcome possible cognitive biases, such as the fallacy that you tend to favor the edited track because _it must sound better_ because _it has been edited for minutes_. If playback is stopped before this action is triggered, playback will start automatically; if playback is already in progress, it will continue.
 
-## MReapy_A/B_finish
+### MReapy_A/B_finish
 Deletes tracks "A" and "B" and renames the track "Root" from "Root| [track title]" back to "[track title]".
 
 
 
 # Installation 
-## Requirements
+### Requirements
 - Python 3.9<
 - Reaper [SWS/S&M Extension](https://www.sws-extension.org/) 
 
-## Download 
+### Download 
 Download all python scripts from this repository and put them in the same folder. 
 
 >sws_python.py and sws_pythoncommands.py are mandatory references that should always be in the same folder of my scripts. The sws_python.py script is the main reference for the Reaper API in order to work, sws_pythoncommands.py are handy functions I wrote for tedious tasks and are referenced in all my scripts (feel free to check them and use them for your own).
