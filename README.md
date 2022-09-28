@@ -19,15 +19,15 @@ During A/B listening, use the plugin [ABLM2 from TBProAudio](https://www.tbproau
 
 # Use
 ### MReaPy_A/B_start
-Creates 2 tracks, called "A| [track title]" and "B| [track title]". The track with the sound source is renamed "Root| [track title]" and its "main send" is set to "off". Tracks "A" and "B" both receive the signal from track "Root", with the main output of one track set to "off" and that of the other track set to "on". 
+Creates 2 tracks, called "A| [track title]" and "B| [track title]". The track with the sound source is renamed "Root| [track title]" and its "master send" is set to "off". Tracks "A" and "B" both receive the signal from track "Root", with the master send of one track set to "off" and that of the other track set to "on". 
 
-If you now select either track "A" or track "b" and trigger the action script "MReapy_A/B_start" again, the "Main Send" states of both tracks change, so that you can work quickly and - unlike when using the mute button - without sample problems and thus with little to no clicks/artifacts. 
+If you now select either track "A" or track "b" and trigger the action script "MReapy_A/B_start" again, the "master send" states of both tracks change, so that you can work quickly and - unlike when using the mute button - without sample problems and thus with little to no clicks/artifacts. 
 
 ### MReaPy_A/B_move
 Moves the FX chain of the selected track to the "root" track source. If AB_LM2 is available in each or both tracks, the FX chain is automatically placed between the two ABLM2 instances of track "Root" and ignored in track "A"/track "B".
 
 ### MReaPy_A/B_random
-Randomly toggles the "Main Send" of Track "A" and "Track "B", i.e. either the "Main Send" is toggled on both tracks or remains the same. By doing so while not looking at the "main send" state, you are forced to your ears identifying the processed track. Use this action frequently when listening A/B to overcome possible cognitive biases, such as the fallacy that you tend to favor the edited track because _it must sound better_ because _it has been edited for minutes_. If playback is stopped before this action is triggered, playback will start automatically; if playback is already in progress, it will continue.
+Randomly toggles the "master send" of Track "A" and "Track "B", i.e. either the "master send" is toggled on both tracks or remains the same. By doing so while not looking at the "master send" state, you are forced to your ears identifying the processed track. Use this action frequently when listening A/B to overcome possible cognitive biases, such as the fallacy that you tend to favor the edited track because _it must sound better_ because _it has been edited for minutes_. If playback is stopped before this action is triggered, playback will start automatically; if playback is already in progress, it will continue.
 
 ### MReapy_A/B_finish
 Deletes tracks "A" and "B" and renames the track "Root" from "Root| [track title]" back to "[track title]".
