@@ -6,6 +6,10 @@ A collection of interdependent action scripts for quick and reliable A/B listeni
 These are 4 intedependent working Reaper action scripts written in python, useable as shortcuts to 1) create a routing structure for A/B listening purposes, 2) quickly accept favourable FX(-chains) and continuing A/B lsitening with new FX, 3) randomly switching between track A and track B in order to overcome cognitive biases by not knowing which track is which, 4) reset routing to your former state by deleting track A and B.
 
 
+# Tip
+Use [https://www.tbproaudio.de/products/ablm](TBProAudio's ABLM2] plugin during A/B listening. By doing so, you can be sure there are virtually no loudness differences and you can quickly switch between A and B and determine whether your processing adds value or not. This script is fully compatible with AB/LM2 instances on a single up to all three tracks. Consider using my [MReapy_ABLM2_Extension](https://github.com/MarlonKr/MReaPy_ABLM2_Extension) for further convienience and a fast workflow.
+
+
 # Use
 ## MReaPy_A/B_start
 Creates 2 tracks, called "A| [track Title]" and "B| [track title]". The track that is supposed to be manipulated by deploying FX will be renamed to "Root| [track title]". Track "A" and track "B" both receive the signal of track "root", while one of them's main output is set "off" an one's set "on".
