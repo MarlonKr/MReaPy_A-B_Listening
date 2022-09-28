@@ -1,4 +1,4 @@
-# MReaPy_A-B_Listening_Suite
+# MReaPy_A-B_Listening
 A collection of interdependent action scripts for fast and reliable A/B listening, written in Python. Automatically provides routing structure, smooth and fast switching between track A and B without clicks, fully compatible with TBProAudio's ABLM2 for equal loudness.
 
 
