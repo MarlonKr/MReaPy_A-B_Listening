@@ -1,8 +1,10 @@
 # MReaPy_A-B_Listening_Suite
 A collection of interdependent action scripts for quick and reliable A/B listening, written in python. Automatically deploy routing structure, smooth and quickly switch between track A and B without clicks, functioning with TBProAudio's ABLM2 for equal loudness.
 
+
 # What is it?
 These are 4 intedependent working Reaper action scripts written in python, useable as shortcuts to 1) create a routing structure for A/B listening purposes, 2) quickly accept favourable FX(-chains) and continuing A/B lsitening with new FX, 3) randomly switching between track A and track B in order to overcome cognitive biases by not knowing which track is which, 4) reset routing to your former state by deleting track A and B.
+
 
 # Use
 ## MReaPy_A/B_start
