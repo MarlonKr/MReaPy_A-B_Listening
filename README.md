@@ -3,7 +3,7 @@ A collection of interdependent action scripts for fast and reliable A/B listenin
 
 
 # What is it?
-These are 4 interdependently working Reaper action scripts written in Python that can be used as shortcuts to 1) create a routing structure for A/B listening purposes, 2) quickly accept favorable FX(chains) to continue further processing and A/B listening, 3) randomly switch between track A and track B to overcome cognitive biases, 4) reset the routing to the previous state by deleting track A and B.
+These are 4 interdependently working Reaper action scripts written in Python that can be used as shortcuts to 1) create a routing structure for A/B listening purposes and smoothly toggle between the two tracks, 2) quickly accept favorable FX(chains) to continue further processing and A/B listening, 3) randomly switch between track A and track B to overcome cognitive biases, 4) reset the routing to the previous state by deleting track A and B.
 
 ![Example of use](https://github.com/MarlonKr/MReaPy_A-B_Listening_Suite/blob/main/ABLM.gif)
 
