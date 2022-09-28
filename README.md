@@ -36,7 +36,7 @@ Deletes tracks "A" and "B" and renames the track "Root" from "Root| [track title
 - Reaper [SWS/S&M Extension](https://www.sws-extension.org/) 
 
 ## Download 
-Download all scripts from this repository and put them in the same folder. 
+Download all python scripts from this repository and put them in the same folder. 
 
 >sws_python.py and sws_pythoncommands.py are mandatory references that should always be in the same folder of my scripts. The sws_python.py script is the main reference for the Reaper API in order to work, sws_pythoncommands.py are handy functions I wrote for tedious tasks and are referenced in all my scripts (feel free to check them and use them for your own).
 
